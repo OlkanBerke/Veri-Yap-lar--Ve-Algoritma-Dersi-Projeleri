@@ -1,0 +1,19 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+==
+
+Bir eleman seçeriz listenin ilk elemanı 7 yi alalım ve 7 den küçükler ve büyükler olarak ayıralım.
+                 [7]
+            /          \
+[5,1,3,6,0,4,2]         [8,9]
+
+aynı işlemi sürdürelim listenin ilk elemanlarını alarak büyükten küçüğe doğru ayıralım.
+                 [7]
+               /     \
+             [5]      [8]
+           /     \      \       
+         [1]     [6]    [9]
+        /   \
+      [0]   [2]
+           /   \
+         [3]   [4]
